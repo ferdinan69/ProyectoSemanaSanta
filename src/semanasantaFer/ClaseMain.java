@@ -18,12 +18,15 @@ import java.util.List;
 	        Libro libro1 = new Libro("El principito", "Antoine de Saint-Exupéry");
 	        Libro libro2 = new Libro("Don Quijote de la Mancha", "Miguel de Cervantes");
 	        Libro libro3 = new Libro("Cien años de soledad", "Gabriel García Márquez");
+	        //Nuevo libroagregado
+	        Libro libro4 = new Libro("Padre Rico Padre Pobre","Robert T. Kiyosaki");
 
 	        // Agregar los libros a la biblioteca
 	        Biblioteca biblioteca = new Biblioteca();
 	        biblioteca.agregarLibro(libro1);
 	        biblioteca.agregarLibro(libro2);
 	        biblioteca.agregarLibro(libro3);
+	        biblioteca.agregarLibro(libro4);
 
 	        // Buscar libros por título
 	        System.out.println("Buscando libros por título:");
